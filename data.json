@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "name": "Captain America",
+        "email": "captainamerica@atom.com"
+    },
+    {
+        "id": 2,
+        "name": "tony stark",
+        "email": "tonystark@atom.com"
+    },
+    {
+        "id": 3,
+        "name": "Steve Roger",
+        "email": "steveroger@atom.com"
+    },
+    {
+        "id": 4,
+        "name": "hawkye",
+        "email": "hawkye@atom.com"
+    },
+    {
+        "id": 5,
+        "name": "Hulk",
+        "email": "hulk@atom.com"
+    },
+    {
+        "id": 6,
+        "name": "spider_man",
+        "email": "spider_man@atom.com"
+    },
+    {
+        "id": 7,
+        "name": "Dr. Steven_Strange",
+        "email": "strange@atom.com"
+    },
+    {
+        "id": 8,
+        "name": "Thor",
+        "email": "thor@atom.com"
+    },
+    {
+        "id":9,
+        "name":"Ant_man",
+        "email":"antman@atom.com"
+    },
+    {
+        "id":10,
+        "name":"Wasp",
+        "email":"wasp@atom.com"
+    }
+]
