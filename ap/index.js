@@ -4,7 +4,7 @@ const path = require('path');
 
 const app = express();
 
-app.get('/api/data', (req, res) => {
+app.get('/ap/data', (req, res) => {
   const dataPath = path.join(__dirname, '..', 'data.json');
   fs.readFile(dataPath, 'utf8', (err, data) => {
     if (err) {
