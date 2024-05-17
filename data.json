@@ -1,52 +1,389 @@
-[
-    {
-        "id": 1,
-        "name": "Captain America",
-        "email": "captainamerica@atom.com"
-    },
-    {
-        "id": 2,
-        "name": "tony stark",
-        "email": "tonystark@atom.com"
-    },
-    {
-        "id": 3,
-        "name": "Steve Roger",
-        "email": "steveroger@atom.com"
-    },
-    {
-        "id": 4,
-        "name": "hawkye",
-        "email": "hawkye@atom.com"
-    },
-    {
-        "id": 5,
-        "name": "Hulk",
-        "email": "hulk@atom.com"
-    },
-    {
-        "id": 6,
-        "name": "spider_man",
-        "email": "spider_man@atom.com"
-    },
-    {
-        "id": 7,
-        "name": "Dr. Steven_Strange",
-        "email": "strange@atom.com"
-    },
-    {
-        "id": 8,
-        "name": "Thor",
-        "email": "thor@atom.com"
-    },
-    {
-        "id":9,
-        "name":"Ant_man",
-        "email":"antman@atom.com"
-    },
-    {
-        "id":10,
-        "name":"Wasp",
-        "email":"wasp@atom.com"
-    }
-]
+{
+    "avengers": [
+        {
+            "id": 1,
+            "name": "Iron Man",
+            "email": "tony.stark@starkindustries.com",
+            "contact": "+1 (555) 123-4567",
+            "role": "Genius billionaire playboy philanthropist"
+        },
+        {
+            "id": 2,
+            "name": "Captain America",
+            "email": "steve.rogers@avengers.com",
+            "contact": "+1 (555) 234-5678",
+            "role": "Super soldier and leader"
+        },
+        {
+            "id": 3,
+            "name": "Thor",
+            "email": "thor@asgard.com",
+            "contact": "+1 (555) 345-6789",
+            "role": "God of Thunder"
+        },
+        {
+            "id": 4,
+            "name": "Hulk",
+            "email": "bruce.banner@greenmail.com",
+            "contact": "+1 (555) 456-7890",
+            "role": "Gamma-powered scientist"
+        },
+        {
+            "id": 5,
+            "name": "Black Widow",
+            "email": "natasha.romanoff@shield.com",
+            "contact": "+1 (555) 567-8901",
+            "role": "Spy and assassin"
+        },
+        {
+            "id": 6,
+            "name": "Hawkeye",
+            "email": "clint.barton@avengers.com",
+            "contact": "+1 (555) 678-9012",
+            "role": "Master archer and marksman"
+        },
+        {
+            "id": 7,
+            "name": "Vision",
+            "email": "vision@avengers.com",
+            "contact": "+1 (555) 123-4567",
+            "role": "Synthetic android"
+        },
+        {
+            "id": 8,
+            "name": "Scarlet Witch",
+            "email": "wanda.maximoff@avengers.com",
+            "contact": "+1 (555) 012-3456",
+            "role": "Reality-altering mutant"
+        },
+        {
+            "id": 9,
+            "name": "Falcon",
+            "email": "sam.wilson@avengers.com",
+            "contact": "+1 (555) 987-6543",
+            "role": "Aerial combatant and winged superhero"
+        },
+        {
+            "id": 10,
+            "name": "War Machine",
+            "email": "james.rhodes@usaf.gov",
+            "contact": "+1 (555) 876-5432",
+            "role": "Military officer and armored hero"
+        },
+        {
+            "id": 11,
+            "name": "Ant-Man",
+            "email": "scott.lang@avengers.com",
+            "contact": "+1 (555) 765-4321",
+            "role": "Size-changing superhero and thief"
+        },
+        {
+            "id": 12,
+            "name": "Wasp",
+            "email": "janet.van.dyne@avengers.com",
+            "contact": "+1 (555) 654-3210",
+            "role": "Size-changing superheroine and scientist"
+        },
+        {
+            "id": 13,
+            "name": "Star-Lord",
+            "email": "peter.quill@gotg.com",
+            "contact": "+1 (555) 321-0987",
+            "role": "Leader and intergalactic adventurer"
+        },
+        {
+            "id": 14,
+            "name": "Gamora",
+            "email": "gamora@gotg.com",
+            "contact": "+1 (555) 210-9876",
+            "role": "Deadliest woman in the galaxy"
+        },
+        {
+            "id": 15,
+            "name": "Drax the Destroyer",
+            "email": "drax@gotg.com",
+            "contact": "+1 (555) 109-8765",
+            "role": "Strong warrior with vengeance against Thanos"
+        },
+        {
+            "id": 16,
+            "name": "Rocket Raccoon",
+            "email": "rocket@gotg.com",
+            "contact": "+1 (555) 098-7654",
+            "role": "Genetically engineered raccoon and expert marksman"
+        },
+        {
+            "id": 17,
+            "name": "Groot",
+            "email": "groot@gotg.com",
+            "contact": "+1 (555) 987-6543",
+            "role": "Tree-like humanoid and loyal friend"
+        },
+        {
+            "id": 18,
+            "name": "Mantis",
+            "email": "mantis@gotg.com",
+            "contact": "+1 (555) 876-5432",
+            "role": "Empathic and telepathic empath"
+        },
+        {
+            "id": 19,
+            "name": "Thanos",
+            "email": "thanos@madtitan.com",
+            "contact": "+1 (555) 543-2109",
+            "role": "Mad Titan seeking to control the universe"
+        },
+        {
+            "id": 20,
+            "name": "Spider-Man",
+            "email": "peter.parker@dailybugle.com",
+            "contact": "+1 (555) 432-1098",
+            "role": "Friendly neighborhood superhero"
+        },
+        {
+            "id": 21,
+            "name": "Black Panther",
+            "email": "tchalla@wakanda.com",
+            "contact": "+1 (555) 321-0987",
+            "role": "King of Wakanda"
+        },
+        {
+            "id": 22,
+            "name": "Doctor Strange",
+            "email": "stephen.strange@sanctumsanctorum.com",
+            "contact": "+1 (555) 210-9876",
+            "role": "Master of the Mystic Arts"
+        },
+        {
+            "id": 23,
+            "name": "Deadpool",
+            "email": "wade.wilson@mercenary.com",
+            "contact": "+1 (555) 109-8765",
+            "role": "Mercenary with accelerated healing factor"
+        },
+        {
+            "id": 24,
+            "name": "Captain Marvel",
+            "email": "carol.danvers@usaf.gov",
+            "contact": "+1 (555) 098-7654",
+            "role": "Interstellar hero with cosmic powers"
+        },
+        {
+            "id": 25,
+            "name": "Nick Fury",
+            "email": "nick.fury@shield.com",
+            "contact": "+1 (555) 987-6543",
+            "role": "Director of S.H.I.E.L.D. and master strategist"
+        },
+        {
+            "id": 26,
+            "name": "Wolverine",
+            "email": "logan@xmen.com",
+            "contact": "+1 (555) 876-5432",
+            "role": "Mutant with retractable claws and healing factor"
+        },
+        {
+            "id": 27,
+            "name": "Storm",
+            "email": "ororo.munroe@xmen.com",
+            "contact": "+1 (555) 765-4321",
+            "role": "Weather-controlling mutant and leader of the X-Men"
+        },
+        {
+            "id": 28,
+            "name": "Magneto",
+            "email": "erik.lehnsherr@brotherhood.com",
+            "contact": "+1 (555) 654-3210",
+            "role": "Mutant with magnetic manipulation powers"
+        },
+        {
+            "id": 29,
+            "name": "Jean Grey",
+            "email": "jean.grey@xmen.com",
+            "contact": "+1 (555) 543-2109",
+            "role": "Telepathic and telekinetic mutant"
+        },
+        {
+            "id": 30,
+            "name": "Cyclops",
+            "email": "scott.summers@xmen.com",
+            "contact": "+1 (555) 432-1098",
+            "role": "Mutant with optic blasts"
+        },
+        {
+            "id": 31,
+            "name": "Rogue",
+            "email": "rogue@xmen.com",
+            "contact": "+1 (555) 321-0987",
+            "role": "Mutant with power absorption abilities"
+        },
+        {
+            "id": 32,
+            "name": "Gambit",
+            "email": "remy.lebeau@xmen.com",
+            "contact": "+1 (555) 210-9876",
+            "role": "Mutant with ability to charge objects with kinetic energy"
+        },
+        {
+            "id": 33,
+            "name": "Beast",
+            "email": "hank.mccoy@xmen.com",
+            "contact": "+1 (555) 109-8765",
+            "role": "Mutant with enhanced strength and agility"
+        },
+        {
+            "id": 34,
+            "name": "Nightcrawler",
+            "email": "kurt.wagner@xmen.com",
+            "contact": "+1 (555) 098-7654",
+            "role": "Mutant with teleportation abilities"
+        },
+        {
+            "id": 35,
+            "name": "Quicksilver",
+            "email": "pietro.maximoff@brotherhood.com",
+            "contact": "+1 (555) 987-6543",
+            "role": "Mutant with superhuman speed"
+        },
+        {
+            "id": 36,
+            "name": "Invisible Woman",
+            "email": "susan.storm@fantasticfour.com",
+            "contact": "+1 (555) 876-5432",
+            "role": "Invisible force field projecting member of the Fantastic Four"
+        },
+        {
+            "id": 37,
+            "name": "Mr. Fantastic",
+            "email": "reed.richards@fantasticfour.com",
+            "contact": "+1 (555) 765-4321",
+            "role": "Elastic scientist and leader of the Fantastic Four"
+        },
+        {
+            "id": 38,
+            "name": "Human Torch",
+            "email": "johnny.storm@fantasticfour.com",
+            "contact": "+1 (555) 654-3210",
+            "role": "Flame-powered member of the Fantastic Four"
+        },
+        {
+            "id": 39,
+            "name": "The Thing",
+            "email": "ben.grimm@fantasticfour.com",
+            "contact": "+1 (555) 543-2109",
+            "role": "Rock-skinned member of the Fantastic Four"
+        },
+        {
+            "id": 40,
+            "name": "Daredevil",
+            "email": "matt.murdock@lawyer.com",
+            "contact": "+1 (555) 432-1098",
+            "role": "Blind lawyer with heightened senses and acrobatic skills"
+        },
+        {
+            "id": 41,
+            "name": "Luke Cage",
+            "email": "luke.cage@heroforhire.com",
+            "contact": "+1 (555) 321-0987",
+            "role": "Superhumanly strong and bulletproof hero for hire"
+        },
+        {
+            "id": 42,
+            "name": "Jessica Jones",
+            "email": "jessica.jones@aliasinvestigations.com",
+            "contact": "+1 (555) 210-9876",
+            "role": "Private investigator with superhuman strength"
+        },
+        {
+            "id": 43,
+            "name": "Punisher",
+            "email": "frank.castle@punisher.com",
+            "contact": "+1 (555) 109-8765",
+            "role": "Vigilante with military training and arsenal of weapons"
+        },
+        {
+            "id": 44,
+            "name": "Ghost Rider",
+            "email": "johnny.blaze@vengance.com",
+            "contact": "+1 (555) 098-7654",
+            "role": "Spirit of vengeance with flaming skull"
+        },
+        {
+            "id": 45,
+            "name": "Silver Surfer",
+            "email": "norin.radd@zennla.com",
+            "contact": "+1 (555) 987-6543",
+            "role": "Herald of Galactus with cosmic powers"
+        },
+        {
+            "id": 46,
+            "name": "Adam Warlock",
+            "email": "adam.warlock@cosmicbeing.com",
+            "contact": "+1 (555) 876-5432",
+            "role": "Cosmic being with near-omnipotent powers"
+        },
+        {
+            "id": 47,
+            "name": "She-Hulk",
+            "email": "jennifer.walters@lawyer.com",
+            "contact": "+1 (555) 765-4321",
+            "role": "Lawyer and cousin of Bruce Banner"
+        },
+        {
+            "id": 48,
+            "name": "Blade",
+            "email": "eric.brooks@vampirehunter.com",
+            "contact": "+1 (555) 654-3210",
+            "role": "Vampire hunter with enhanced abilities"
+        },
+        {
+            "id": 49,
+            "name": "Morbius",
+            "email": "michael.morbius@livingvampire.com",
+            "contact": "+1 (555) 543-2109",
+            "role": "Living vampire with superhuman abilities"
+        },
+        {
+            "id": 50,
+            "name": "Shang-Chi",
+            "email": "shang.chi@martialarts.com",
+            "contact": "+1 (555) 432-1098",
+            "role": "Master of martial arts"
+        },
+        {
+            "id": 51,
+            "name": "Moon Knight",
+            "email": "marc.spector@vigilante.com",
+            "contact": "+1 (555) 321-0987",
+            "role": "Lunar-powered vigilante with multiple identities"
+        },
+        {
+            "id": 52,
+            "name": "Iron Fist",
+            "email": "danny.rand@randenterprises.com",
+            "contact": "+1 (555) 210-9876",
+            "role": "Martial artist with mystical powers"
+        },
+        {
+            "id": 53,
+            "name": "Nova",
+            "email": "richard.rider@nova.com",
+            "contact": "+1 (555) 109-8765",
+            "role": "Human Rocket with cosmic powers"
+        },
+        {
+            "id": 54,
+            "name": "Squirrel Girl",
+            "email": "doreen.green@squirrelpower.com",
+            "contact": "+1 (555) 098-7654",
+            "role": "Hero with squirrel-related powers"
+        },
+        {
+            "id": 55,
+            "name": "Ms. Marvel",
+            "email": "kamala.khan@avengers.com",
+            "contact": "+1 (555) 987-6543",
+            "role": "Shape-shifting hero and Avengers fan"
+        }
+    ]
+}
