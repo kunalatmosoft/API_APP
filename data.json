@@ -1,5 +1,4 @@
-{
-    "avengers": [
+ [
         {
             "id": 1,
             "name": "Iron Man",
@@ -386,4 +385,3 @@
             "role": "Shape-shifting hero and Avengers fan"
         }
     ]
-}
